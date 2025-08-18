@@ -166,3 +166,30 @@ header div {
     right: -80px;
     animation-delay: 3s;
 }
+
+.app-list {
+    margin-top: 20px;
+}
+
+.app-list .app-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.app-list ul {
+    list-style: none;
+    padding: 0;
+}
+.app-list li {
+    margin: 10px 0;
+}
+.app-list li a {
+    color: #a68bfa;
+    font-weight: bold;
+}
+.app-list li a:hover {
+    color: #7dd3fc;
+}
